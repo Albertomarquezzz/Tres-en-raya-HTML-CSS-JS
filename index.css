@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+body{
+    background-image:url("https://www.xtrafondos.com/wallpapers/textura-de-madera-2927.jpg")
+}
+
+*{
+    text-align: center;
+}
+
+#tittle{
+    margin-top: 1.5%;
+}
+
+.cuadricula{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:0;
+}
+
+.c{
+	font-size:50px;
+    width:10rem;
+    height: 10rem;
+    border: 1px solid rgb(168, 168, 168);   
+    color:rgb(188, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.xtrafondos.com/wallpapers/textura-de-madera-2927.jpg");
+    transition: background-color ease-in 0.2s;
+}
+
+.c:hover{
+    background-color:#cccc;
+}
+
+.boton{
+    font-size: 25px;
+    margin: 1%;
+	width:25rem;
+    display:inline-flex;
+    padding: 1rem 1rem;
+    background:red ;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    font-weight:bolder;
+    transition:color ease-out 0.3s;
+}
+
+.boton:hover{
+    background:white ;
+    color: red;
+    border: 1px solid red;
+}
